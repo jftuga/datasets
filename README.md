@@ -8,6 +8,10 @@ Test datasets of numbers, one per line, for exercising statistics tools such as 
 | [`non-random/`](non-random/) | 30 simulated real-world datasets (queues, tides, seasonality, mixtures, and more). See its [README](non-random/README.md). |
 | [`non_random_gen/`](non_random_gen/) | The Python generator for `non-random/`. See its [README](non_random_gen/README.md). |
 
+## Disclaimer
+
+All code and datasets in this repository were vibe-coded with Claude Opus 5.5. Every dataset is synthetic: none of it comes from real measurements, and the "real-world" files only simulate the processes they are named after. Do not rely on these files for research, decisions, or any purpose where accuracy matters. Everything is provided as is, without warranty of any kind (see [LICENSE](LICENSE)), and the author is not responsible for its accuracy or for how it is used.
+
 ## Random datasets
 
 The files in `random/` were generated with [randrange](https://github.com/jftuga/randrange) v0.3.1. Each file holds one number per line. The 30 files differ in count (20 to 1,000,000), range, number type (integer or float), and distribution (uniform or skewed). Together they take about 34 MB.
