@@ -1,0 +1,14 @@
+# Python bytecode from running non_random_gen
+__pycache__/
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# Reports written by `stats -html` beside the input file
+*.html
+
+# macOS Finder metadata
+.DS_Store
+
+# Pull request drafts, never committed
+PR.md
